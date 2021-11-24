@@ -1,0 +1,26 @@
+{
+  "name": "nano-33-iot-ibeacon",
+  "version": "1.0.0",
+  "description": "A simple and lightweight library that turns your Arduino Nano 33 IoT board into an Bluetooth iBeacon device.",
+  "keywords": "arduino, nano, ibeacon, beacon, ble, bluetooth",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tienducle/nano-33-iot-ibeacon.git"
+  },
+  "authors": [
+    {
+      "name": "Tien Duc Le",
+      "maintainer": true
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/tienducle/nano-33-iot-ibeacon",
+  "headers": [
+    "Beacon.h"
+  ],
+  "dependencies": {
+    "Arduino/ArduinoBLE": "~1.2.1"
+  },
+  "frameworks": "arduino",
+  "platforms": "atmelsam"
+}
