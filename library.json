@@ -1,6 +1,6 @@
 {
   "name": "nano-33-iot-ibeacon",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple and lightweight library that turns your Arduino Nano 33 IoT board into an Bluetooth iBeacon device.",
   "keywords": "arduino, nano, ibeacon, beacon, ble, bluetooth",
   "repository": {
