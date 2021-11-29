@@ -15,15 +15,14 @@ class Beacon_
         uint8_t _minor[2];
         uint8_t _tx;
 
-        void copyShortToByteArray(unsigned short source, uint8_t *target );
-        void copyUuidToByteArray(const char *source, uint8_t *target );
+        void convertShortToBytes(unsigned short source, uint8_t *target );
+        void convertUuidStringToHexBytes(const char *source, uint8_t *target );
 
     public:
         Beacon_();
         void init(const char *uuid, unsigned short major, unsigned short minor, uint8_t tx );
         void start();
         void stop();
-
 };
 
 extern Beacon_ Beacon;
