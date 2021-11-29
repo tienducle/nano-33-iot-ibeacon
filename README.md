@@ -35,10 +35,11 @@ Limitations
 
 Change Log
 ----------
-| Date       | Version | Notes                              	|
-|------------|---------|------------------------------------	|
-| 2021-11-29 | 1.0.2   | Fixed Readme.md                     	|
-| 2021-11-29 | 1.0.1   | Added examples<br>Added change log 	|
-| 2021-11-29 | 1.0.0   | Initial release                    	|
+| Date       | Version | Notes                                  	|
+|------------|---------|------------------------------------    	|
+| 2021-11-29 | 1.0.3   | Fixed reference to ArduinoBLE dependency	|
+| 2021-11-29 | 1.0.2   | Fixed Readme.md                        	|
+| 2021-11-29 | 1.0.1   | Added examples<br>Added change log     	|
+| 2021-11-29 | 1.0.0   | Initial release                        	|
 
 [ibeacon]: https://developer.apple.com/ibeacon/
